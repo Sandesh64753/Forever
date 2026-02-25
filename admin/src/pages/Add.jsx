@@ -16,7 +16,7 @@ const Add = ({ token }) => {
   const [price, setPrice] = useState('')
   const [category, setCategory] = useState('Men')
   const [subCategory, setSubCategory] = useState('Topwear')
-  const [bestseller, setBestseller] = useState(false)
+  const [bestSeller, setBestSeller] = useState(false)
   const [sizes, setSizes] = useState([])
 
   const onSubmitHandler = async (e) => {
@@ -31,7 +31,7 @@ const Add = ({ token }) => {
       formData.append('price', price)
       formData.append('category', category)
       formData.append('subCategory', subCategory)
-      formData.append('bestseller', bestseller)
+      formData.append('bestSeller', bestSeller)
       formData.append('sizes', JSON.stringify(sizes))
 
       image1 && formData.append('image1', image1)
