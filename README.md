@@ -2,7 +2,7 @@
 
 Full-stack ecommerce starter project with three apps in this repository:
 - `frontend` — customer-facing React app (Vite + Tailwind)
-- `admin` — admin dashboard React app (Vite + Tailwind)
+- `admin` — admin dashboard React app (Vite + Tailwind), ID: admin@sandy.com, password: qwerty1234
 - `backend` — Node/Express API with MongoDB, Cloudinary and Stripe integrations
 
 ---
